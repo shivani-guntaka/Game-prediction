@@ -1,0 +1,46 @@
+EPL_MATCHES -- 
+
+home_team_id - Team playing on homeground
+away_team_id - Team not playing on homeground
+home_player_X1 , home_player_X2 ....home_player_X11  - Home team squad formation
+home_player_Y1 , home_player_Y2 ....home_player_Y11  - Home team squad formation
+away_player_X1 , away_player_X2 ... away_player_X11  - Away team squad formation
+away_player_Y1 , away_player_Y2 ... away_player_Y11  - Away team squad formation
+home_player_1 , home_player_2 ....home_player_11 - Home players' ID
+away_player_1 , away_player_2 ... away_player_11  - Away players' ID
+on_target_shot_home_team - Shots on goal (Home team)
+on_target_shot_away_team - Shots on goal (Away team)
+off_target_shot_home_team - Bad shots on goal (Home team)
+off_target_shot_away_team - Bad shots on goal (Away team)
+foul_home_team - Number of foul (Home team)
+foul_away_team - Number of foul (Away team)
+yellow_card_home_team - Number of yellow cards (Home team)
+yellow_card_away_team - Number of yellow cards
+red_card_home_team - Number of Red cards (Home team)
+red_card_away_team - Number of Red cards (Away team)
+corner_home_team - Number of corner(Home team)
+corner_away_team - Number of corner (Away team)
+possession_home_team - Possession (Home team)
+possession_away_team - Possession (Away team)
+home_team_goal - Home team goals
+away_team_goal - Away team goals
+
+
+EPL_PLAYERS and EPL_TEAMS-- 
+
+csv files are for players and teams attributes
+All columns are self-explanatory
+
+EPL_GOALs --
+
+match_id - Match ID
+team_id - Teams ID
+goal_number - Goal Number from a particular match 
+player1_id - Made goal
+player2_id - Player who assisted player1
+goal_type - Goal Type
+
+EPL_POTENTIAL_SHOTS --
+
+Contains all close shots ( Including goals )
+All columns are self-explanatory
